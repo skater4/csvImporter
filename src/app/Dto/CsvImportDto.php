@@ -3,9 +3,6 @@
 namespace App\Dto;
 
 use App\Contracts\ImportDtoInterface;
-use Countable;
-use IteratorAggregate;
-use ArrayIterator;
 
 class CsvImportDto implements ImportDtoInterface
 {

@@ -19,11 +19,9 @@ CSV;
         $path = tempnam(sys_get_temp_dir(), 'csv');
         file_put_contents($path, $csv);
 
-        // 2) парсим
         $parser    = AdapterFactory::make(ImportResourceEnum::CSV);
         $importDto = $parser->parse(new SplFileObject($path));
 
-        // 3) проверяем DTO-обёртку
         $items = $importDto->getItems();
         $this->assertCount(1, $items);
 

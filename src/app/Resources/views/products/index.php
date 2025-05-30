@@ -1,6 +1,3 @@
-<?php
-// src/app/Views/products/index.php
-?>
 <div class="container py-4">
 
     <!-- Карточка с формой импорта -->
