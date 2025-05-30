@@ -1,0 +1,20 @@
+{
+    "name": "skater4/csv-importer",
+    "description": "Csv Importer App",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stan Man",
+            "email": "skater4@yandex.ru"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    }
+}
